@@ -24,8 +24,8 @@
 			<span class="table-data"><label>Species:</label>		</span>
             <span class="table-data">	<input type="text" name="attr_species" title="Species @{Species}" class="header" /></span>
 			<span class="table-data"></span>
-			<span class="table-data"><label>Destiny:</label>		</span>
-            <span class="table-data">	<input type="text" name="attr_destiny" title="Destiny @{Destiny}" class="header" /></span>
+			<!--<span class="table-data"><label>Destiny:</label>		</span>
+            <span class="table-data">	<input type="text" name="attr_destiny" title="Destiny @{Destiny}" class="header" /></span>-->
 		</div>
 		<div class="table-row">
 			<span class="table-data"><label>Gender:</label>		</span>
@@ -92,20 +92,10 @@
 		</div>
 		<div class="col">
 			<table>		
-				<tr>	<td colspan="3"><div class="textHead">Hit Points</div> </td>	
+				<tr>	<td colspan="3"><div class="textHead">Vitality</div> </td>	
 						<td></td> 	
 						<td width="15px" rowspan="7"></td>	
-						<td><div class="textHead">Condition</div></td>	</tr>
-				<tr><th>Current</th>		<th></th>	<th>Total</th>
-					<td></td>
-					<!-- rowspan placholder -->
-					<td rowspan="5" style="text-align:left">		
-						<input type="radio" value="0" name="attr_CT" checked="true" /> Normal<br />
-						<input type="radio" value="-1" name="attr_CT" /> -1<br />
-						<input type="radio" value="-2" name="attr_CT" /> -2<br />
-						<input type="radio" value="-5" name="attr_CT" /> -5<br />
-						<input type="radio" value="-10" name="attr_CT" /> -10<br />
-						<input type="radio" value="-10[Helpless]" name="attr_CT" /> Helpless</td>		
+						<td colspan="3"><div class="textHead">Wound Points</div></td>		
 				</tr>
 				<tr>	
 					<td> <input type="number" name="attr_HP" value="0" title="Current HP @{HP}" /></td>
